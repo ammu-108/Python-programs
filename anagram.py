@@ -1,0 +1,6 @@
+n1 = str(input())
+n2 = str(input())
+n1 = n1.replace(" ","").lower()
+n2 = n2.replace(" ","").lower()
+res = sorted(n1) == sorted(n2)
+print(res)
